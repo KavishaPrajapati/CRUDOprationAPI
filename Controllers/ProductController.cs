@@ -34,7 +34,7 @@ namespace CRUDOprationAPI.Controllers
                 var product = _productmanager.GetAll().ToList();
                 if (product.Count == 0)
                 {
-                    return NotFound("Product Not Available.");
+                    return NotFound("Product Not ..........");
                 }
                 return Ok(product);
             }
@@ -124,10 +124,10 @@ namespace CRUDOprationAPI.Controllers
 
                 if (isDelete)
                 {
-                    return Ok("Product has been Deleted.");
+                    return Ok("commit.");
                 }
 
-                return BadRequest("Product Deleted Failed.");
+                return BadRequest("Product Deleted .");
             }
             catch (Exception ex)
             {

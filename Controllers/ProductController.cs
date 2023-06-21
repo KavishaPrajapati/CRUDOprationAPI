@@ -27,7 +27,7 @@ namespace CRUDOprationAPI.Controllers
         [HttpGet]
         public ActionResult<ProductMaster> GetAll()
         {
-            _logger.LogInformation("GetAll method started");
+            _logger.LogInformation("GetAll method started ");
             //var product = _dbcontext.ProductMaster.ToList();
             try
             {
